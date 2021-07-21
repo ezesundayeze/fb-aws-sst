@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facebookawsamplify-dev-50022-authRole",
+      "UnauthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-50022-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-50022-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-facebookawsamplify-dev-50022-deployment",
+      "UnauthRoleName": "amplify-facebookawsamplify-dev-50022-unauthRole",
+      "StackName": "amplify-facebookawsamplify-dev-50022",
+      "StackId": "arn:aws:cloudformation:us-east-1:808109775048:stack/amplify-facebookawsamplify-dev-50022/0734d510-e458-11eb-b22e-0e8b433be3dd",
+      "AmplifyAppId": "d34lfr7j8w44mq"
+    },
+    "categories": {
+      "auth": {
+        "facebookawsamplifyd1fb8781": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "domain": "facebookauth-dev.auth.us-east-1.amazoncognito.com",
+    "clientID": "2Ew7slhEmNyKEzHPJ4Et2iEJapw7dIry",
+    "scope": "openid username",
+    "redirectUri": "http://localhost:3000/",
+    "returnTo": "http://localhost:3000/",
+    "responseType": "token id_token"
+}
