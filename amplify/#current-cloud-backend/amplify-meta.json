@@ -1,0 +1,41 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facebookawsamplify-dev-50022-authRole",
+      "UnauthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-50022-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-50022-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-facebookawsamplify-dev-50022-deployment",
+      "UnauthRoleName": "amplify-facebookawsamplify-dev-50022-unauthRole",
+      "StackName": "amplify-facebookawsamplify-dev-50022",
+      "StackId": "arn:aws:cloudformation:us-east-1:808109775048:stack/amplify-facebookawsamplify-dev-50022/0734d510-e458-11eb-b22e-0e8b433be3dd",
+      "AmplifyAppId": "d34lfr7j8w44mq",
+      "AuthTriggerTemplateURL": ""
+    }
+  },
+  "auth": {
+    "facebookawsamplifyd1fb8781": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-facebookawsamplify-dev-50022-deployment/amplify-cfn-templates/auth/facebookawsamplifyd1fb8781-cloudformation-template.yml",
+        "logicalId": "authfacebookawsamplifyd1fb8781"
+      },
+      "lastPushTimeStamp": "2021-07-14T05:39:09.609Z",
+      "output": {
+        "UserPoolId": "us-east-1_SZ8VNrqWT",
+        "AppClientIDWeb": "4dmb9sspm9k92n4h55kvpmftkt",
+        "AppClientID": "5ohps72shg34106mhp5cn0d0ko",
+        "HostedUIDomain": "facebookauth-dev",
+        "IdentityPoolId": "us-east-1:5bcd5498-0484-45ba-8910-177788fb7cf8",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:808109775048:userpool/us-east-1_SZ8VNrqWT",
+        "IdentityPoolName": "facebookawsamplifyd1fb8781_identitypool_d1fb8781__dev",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/login/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+        "UserPoolName": "facebookawsamplifyd1fb8781_userpool_d1fb8781"
+      },
+      "lastPushDirHash": "nV9/p7UQtYy3En+Hf3UL98HRIeY="
+    }
+  }
+}
