@@ -1,41 +1,41 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-facebookawsamplify-dev-50022-authRole",
-      "UnauthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-50022-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-50022-authRole",
+      "AuthRoleName": "amplify-facebookawsamplify-dev-231728-authRole",
+      "UnauthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-231728-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::808109775048:role/amplify-facebookawsamplify-dev-231728-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-facebookawsamplify-dev-50022-deployment",
-      "UnauthRoleName": "amplify-facebookawsamplify-dev-50022-unauthRole",
-      "StackName": "amplify-facebookawsamplify-dev-50022",
-      "StackId": "arn:aws:cloudformation:us-east-1:808109775048:stack/amplify-facebookawsamplify-dev-50022/0734d510-e458-11eb-b22e-0e8b433be3dd",
-      "AmplifyAppId": "d34lfr7j8w44mq",
+      "DeploymentBucketName": "amplify-facebookawsamplify-dev-231728-deployment",
+      "UnauthRoleName": "amplify-facebookawsamplify-dev-231728-unauthRole",
+      "StackName": "amplify-facebookawsamplify-dev-231728",
+      "StackId": "arn:aws:cloudformation:us-east-1:808109775048:stack/amplify-facebookawsamplify-dev-231728/76a745d0-ea71-11eb-be1d-12c9a8da122f",
+      "AmplifyAppId": "d2owyfa34tjkjg",
       "AuthTriggerTemplateURL": ""
     }
   },
   "auth": {
-    "facebookawsamplifyd1fb8781": {
+    "facebookawsamplify2655cea2": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-facebookawsamplify-dev-50022-deployment/amplify-cfn-templates/auth/facebookawsamplifyd1fb8781-cloudformation-template.yml",
-        "logicalId": "authfacebookawsamplifyd1fb8781"
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-facebookawsamplify-dev-231728-deployment/amplify-cfn-templates/auth/facebookawsamplify2655cea2-cloudformation-template.yml",
+        "logicalId": "authfacebookawsamplify2655cea2"
       },
-      "lastPushTimeStamp": "2021-07-14T05:39:09.609Z",
+      "lastPushTimeStamp": "2021-07-21T22:40:18.174Z",
       "output": {
-        "UserPoolId": "us-east-1_SZ8VNrqWT",
-        "AppClientIDWeb": "4dmb9sspm9k92n4h55kvpmftkt",
-        "AppClientID": "5ohps72shg34106mhp5cn0d0ko",
-        "HostedUIDomain": "facebookauth-dev",
-        "IdentityPoolId": "us-east-1:5bcd5498-0484-45ba-8910-177788fb7cf8",
-        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:808109775048:userpool/us-east-1_SZ8VNrqWT",
-        "IdentityPoolName": "facebookawsamplifyd1fb8781_identitypool_d1fb8781__dev",
-        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/login/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
-        "UserPoolName": "facebookawsamplifyd1fb8781_userpool_d1fb8781"
+        "UserPoolId": "us-east-1_MSALIO7RV",
+        "AppClientIDWeb": "nsi98llcss8qv6bhks29nu819",
+        "AppClientID": "42i0f1uvojr7mrlci968egub00",
+        "HostedUIDomain": "facebookeze-dev",
+        "IdentityPoolId": "us-east-1:c0cf3161-e17d-4102-9760-5718a29c0664",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:808109775048:userpool/us-east-1_MSALIO7RV",
+        "IdentityPoolName": "facebookawsamplify2655cea2_identitypool_2655cea2__dev",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+        "UserPoolName": "facebookawsamplify2655cea2_userpool_2655cea2"
       },
-      "lastPushDirHash": "nV9/p7UQtYy3En+Hf3UL98HRIeY="
+      "lastPushDirHash": "NXfYOJ0Qo95TbI7qvIBMt/Hh9Zw="
     }
   }
 }

@@ -3,21 +3,29 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-1",
-    "aws_cognito_identity_pool_id": "us-east-1:5bcd5498-0484-45ba-8910-177788fb7cf8",
+    "aws_cognito_identity_pool_id": "us-east-1:16f3ffbb-6b76-4b9c-b083-3d5e43404b7e",
     "aws_cognito_region": "us-east-1",
-    "aws_user_pools_id": "us-east-1_SZ8VNrqWT",
-    "aws_user_pools_web_client_id": "4dmb9sspm9k92n4h55kvpmftkt",
+    "aws_user_pools_id": "us-east-1_MSALIO7RV",
+    "aws_user_pools_web_client_id": "nsi98llcss8qv6bhks29nu819",
+    "API": {
+        "endpoints": [
+            {
+                "name": "private",
+                "endpoint": "https://h7hwy6b839.execute-api.us-east-1.amazonaws.com",
+                "service": "lambda",
+                "region": "us-east-1"
+            }
+        ]
+    }, 
     "oauth": {
-        "domain": "facebookauth-dev.auth.us-east-1.amazoncognito.com",
+        "domain": "facebookeze-dev.auth.us-east-1.amazoncognito.com",
         "scope": [
-            "phone",
-            "email",
             "openid",
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://localhost:3000/login/",
-        "redirectSignOut": "https://localhost:3000/",
+        "redirectSignIn": "http://localhost:3000/",
+        "redirectSignOut": "http://localhost:3000/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS"

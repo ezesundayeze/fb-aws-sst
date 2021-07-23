@@ -1,6 +1,6 @@
 {
   "auth": {
-    "facebookawsamplifyd1fb8781": {
+    "facebookawsamplify2655cea2": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

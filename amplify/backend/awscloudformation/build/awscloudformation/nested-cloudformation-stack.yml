@@ -77,15 +77,15 @@
         }
       }
     },
-    "authfacebookawsamplifyd1fb8781": {
+    "authfacebookawsamplify2655cea2": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-facebookawsamplify-dev-50022-deployment/amplify-cfn-templates/auth/facebookawsamplifyd1fb8781-cloudformation-template.yml",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-facebookawsamplify-dev-231728-deployment/amplify-cfn-templates/auth/facebookawsamplify2655cea2-cloudformation-template.yml",
         "Parameters": {
-          "identityPoolName": "facebookawsamplifyd1fb8781_identitypool_d1fb8781",
+          "identityPoolName": "facebookawsamplify2655cea2_identitypool_2655cea2",
           "allowUnauthenticatedIdentities": false,
-          "resourceNameTruncated": "facebod1fb8781",
-          "userPoolName": "facebookawsamplifyd1fb8781_userpool_d1fb8781",
+          "resourceNameTruncated": "facebo2655cea2",
+          "userPoolName": "facebookawsamplify2655cea2_userpool_2655cea2",
           "autoVerifiedAttributes": "email",
           "mfaConfiguration": "OFF",
           "mfaTypes": "SMS Text Message",
@@ -101,10 +101,10 @@
           "userpoolClientRefreshTokenValidity": 30,
           "userpoolClientWriteAttributes": "email",
           "userpoolClientReadAttributes": "email",
-          "userpoolClientLambdaRole": "facebod1fb8781_userpoolclient_lambda_role",
+          "userpoolClientLambdaRole": "facebo2655cea2_userpoolclient_lambda_role",
           "userpoolClientSetAttributes": false,
-          "sharedId": "d1fb8781",
-          "resourceName": "facebookawsamplifyd1fb8781",
+          "sharedId": "2655cea2",
+          "resourceName": "facebookawsamplify2655cea2",
           "authSelections": "identityPoolAndUserPool",
           "authRoleArn": {
             "Fn::GetAtt": [
@@ -120,10 +120,10 @@
           },
           "useDefault": "defaultSocial",
           "hostedUI": true,
-          "hostedUIDomainName": "facebookauth",
+          "hostedUIDomainName": "facebookeze",
           "authProvidersUserPool": "",
           "hostedUIProviderMeta": "[]",
-          "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/login/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+          "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
           "userPoolGroupList": "",
           "serviceName": "Cognito",
           "usernameCaseSensitive": false,
@@ -137,7 +137,7 @@
       "DependsOn": [
         "AuthRole",
         "UnauthRole",
-        "authfacebookawsamplifyd1fb8781"
+        "authfacebookawsamplify2655cea2"
       ],
       "Type": "AWS::Lambda::Function",
       "Properties": {
@@ -220,7 +220,7 @@
         },
         "idpId": {
           "Fn::GetAtt": [
-            "authfacebookawsamplifyd1fb8781",
+            "authfacebookawsamplify2655cea2",
             "Outputs.IdentityPoolId"
           ]
         },

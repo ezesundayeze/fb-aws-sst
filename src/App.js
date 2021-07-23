@@ -1,17 +1,18 @@
-// import '../App.css';
-import { AmplifyFacebookButton, AmplifySignUp } from '@aws-amplify/ui-react';
+import "bootstrap/dist/css/bootstrap.css"
+import './App.css';
+import { Route, Switch } from "react-router-dom";
+import Authentication from "./Authentication";
+import PrivateComponent from "./PrivateComponent";
 
-const Login = () => {
-    return (
-        <>
-            <div style={{ width: "50%" }}>
-                <AmplifySignUp></AmplifySignUp>
-                <AmplifyFacebookButton />
-            </div>
-
-        </>
-
-    );
+const App = () => {
+  return (
+    <div className="App">
+      <Switch>
+      <Route path="/" exact component={ Authentication }  />
+        <Route path="/private" exact component={ PrivateComponent } />
+      </Switch>
+    </div>
+  );
 }
 
-export default Login;
+export default App;
